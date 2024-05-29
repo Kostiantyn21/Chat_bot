@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^8.57.0",
+    "pino": "^9.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "pino-pretty": "^11.0.0",
+    "telegraf": "^4.16.3"
+  },
+  "name": "task-3.4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
