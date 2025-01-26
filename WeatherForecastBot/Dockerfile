@@ -1,11 +1,11 @@
 FROM node:alpine
 
-COPY . /Task-3.4/
+COPY . /WeatherForecastBot/
 
-WORKDIR /Task-3.4/dist
+WORKDIR /WeatherForecastBot/dist
 
 EXPOSE 3000
 
 RUN npm install
 
-CMD ["node", "/Task-3.4/dist/app.js"]
+CMD ["node", "/WeatherForecastBot/dist/app.js"]
